@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {margin: 0;}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: green;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+h2{
+
+    padding-bottom: 50px;
+    color:red;
+    
+}
+
+h3{
+    color:red;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+.label{
+
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color:aliceblue;
+}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+</style>
+</head>
+<body>
+
+<ul class="topnav">
+  <li><a href="#hello" style="font-weight:bold">Hello!</a></li>
+  <li class="right"><a href="#contact">Contact</a></li>
+  <li class="right"><a href="#achievements">Achievements</a></li>
+  <li class="right"><a href="#projects">Projects</a></li>
+  <li class="right"><a href="#about">About</a></li>
+  <li class="right"><a href="#home">Home</a></li>
+</ul>
+
+<div style="padding:0 16px; background-color:grey;" align="center">
+  <h2><mark>About</mark></h2>
+  <p>I am a Full stack developer having 3 years of experience at Wipro Technologies Ltd.I have knowledge on Javascript, React, Spring Boot,Node js, express js and Mongo DB</p>
+  <h2><mark>Projects</mark></h2>
+  <p>Online boutique e-commerce website</p>
+  <P>Online food order application</P>
+  <h2><mark>Achievements</mark></h2>
+  <p>Flag bearer in problem solving</p>
+  <p>Good contributor to team</p>
+  <h3><mark>Contact</mark></h3>
+  <form style="background-color: #111; width: 300px;height: 190px;">
+    <div class="label">
+    <label>Name</label>
+    <input type="text"/>
+    </div>
+    <div class="label">
+    <label>Email</label>
+    <input type="email"/>
+    </div>
+    <div class="label">
+    <label>Number</label>
+    <input type="text"/>
+    </div>
+    <div class="label">
+    <label>Message</label>
+    <textarea></textarea>
+    </div>
+    <input type="submit" value="Submit" />
+  </form>
+  
+</div>
+
+</body>
+</html>
+
+
